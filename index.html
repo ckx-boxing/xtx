@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- pc端视口配置 -->
+    <meta name="viewport" content="width=1200,  user-scalable=yes" />
+    <meta http-equiv="X-UA-Compatible" content="lE=edge" />
+    <title>小兔鲜儿</title>
+    <!-- 样式引入顺序：normalize -> reset -> 自定义css -->
+    <!-- 浏览器的统一初始化样式 -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- 移动端自定义初始化样式 -->
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+    <!-- 默认清除的初始化样式 -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <!-- 字体图标样式 -->
+    <!-- <link rel="stylesheet" href="./assets/fonts/" /> -->
+    <!-- 引入 favicon 图片 -->
+    <link rel="icon" href="/favicon.ico" />
+    <!-- swiper -->
+    <script src="./js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- 首页样式 -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="head">
+      <div class="pageHeader">
+        <div class="w">
+          <ul>
+            <li><a href="#">请先登录</a></li>
+            <li></li>
+            <li><a href="#">免费注册</a></li>
+            <li></li>
+            <li><a href="grzx.html">我的订单</a></li>
+            <li></li>
+            <li><a href="#">会员中心</a></li>
+            <li></li>
+            <li><a href="#">帮助中心</a></li>
+            <li></li>
+            <li><a href="#">在线客服</a></li>
+            <li></li>
+            <li>
+              <a href="#"> <span></span>&nbsp; 手机版 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navigator w">
+        <div class="logo">
+          <h1>
+            <a href="index.html" title="小兔鲜儿">小兔鲜儿</a>
+          </h1>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#sx">生鲜</a></li>
+            <li><a href="#">美食</a></li>
+            <li><a href="#cc">餐厨</a></li>
+            <li><a href="#">电器</a></li>
+            <li><a href="#jj">居家</a></li>
+            <li><a href="#">洗护</a></li>
+            <li><a href="#">孕婴</a></li>
+            <li><a href="#fs">服装</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <span></span>
+          <input type="text" placeholder="搜一搜" />
+        </div>
+        <div class="cart">
+          <span>2</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+      <div class="w">
+        <!-- swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/banner.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/banner.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/banner.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/banner.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/banner.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- swiper -->
+
+        <!-- 侧边栏 -->
+        <div class="aside">
+          <ul>
+            <li>
+              <a href="#sx">生鲜</a>
+              <a href="#">水果</a>
+              &nbsp;&nbsp;<a href="#">蔬菜</a>
+              <span></span>
+            </li>
+            <li>
+              <a href="#">美食</a>
+              <a href="#">面点</a>
+              &nbsp;&nbsp;<a href="#">干果</a>
+              <span></span>
+            </li>
+            <li><a href="#cc">餐厨</a><a href="#">数码产品</a><span></span></li>
+            <li>
+              <a href="#">电器</a><a href="#">床品</a>&nbsp;&nbsp;<a href="#"
+                >四件套</a
+              >&nbsp;&nbsp;<a href="#">被枕</a>
+              <span></span>
+            </li>
+            <li>
+              <a href="#jj">居家</a><a href="#">奶粉</a>&nbsp;&nbsp;<a href="#"
+                >玩具</a
+              >&nbsp;&nbsp;<a href="#">辅食</a>
+              <span></span>
+            </li>
+            <li>
+              <a href="#">洗护</a><a href="#">洗发</a>&nbsp;&nbsp;<a href="#"
+                >洗护</a
+              >&nbsp;&nbsp;<a href="#">美妆</a>
+              <span></span>
+            </li>
+            <li>
+              <a href="#">孕婴</a><a href="#">奶粉</a>&nbsp;&nbsp;<a href="#"
+                >玩具</a
+              >
+              <span></span>
+            </li>
+            <li>
+              <a href="#fs">服饰</a><a href="#">女装</a>&nbsp;&nbsp;<a href="#"
+                >男装</a
+              >
+              <span></span>
+            </li>
+            <li>
+              <a href="#">杂货</a><a href="#">户外</a>&nbsp;&nbsp;<a href="#"
+                >图书</a
+              >
+              <span></span>
+            </li>
+            <li><a href="#">品牌</a><a href="#">品牌制造</a><span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 新鲜好物 -->
+    <!-- 写成公共的 -->
+
+    <div class="main">
+      <div class="w">
+        <div class="main-title">
+          <h2>新鲜好物</h2>
+          <h3>新鲜出炉 品质靠谱</h3>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="main-list">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <div class="xp">新<br />品</div>
+                  <img src="./assets/upload/xxhw_1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>睿米无线吸尘器F8</h2>
+                  <h3>￥899</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <div class="xp">新<br />品</div>
+                  <img src="./assets/upload/xxhw_2.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>智能环绕3D空调</h2>
+                  <h3>￥1299</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <div class="xp">新<br />品</div>
+                  <img src="./assets/upload/xxhw_3.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>广东软软糯米煲仔饭</h2>
+                  <h3>￥129</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <div class="xp">新<br />品</div>
+                  <img src="./assets/upload/xxhw_4.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>罗西机械智能手表</h2>
+                  <h3>￥339</h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="w">
+        <div class="main-title">
+          <h2>人气推荐</h2>
+          <h3>人气爆款 不容错过</h3>
+          <!-- <div class="ckqb"><a href="#">查看全部</a><span></span></div> -->
+        </div>
+        <div class="main-list">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <img src="./assets/upload/rqtj_1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>特惠推荐</h2>
+                  <h3>我猜得到 你的需要</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <!-- <div class="xp">新<br />品</div> -->
+                  <img src="./assets/upload/rqtj_2.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>爆款推荐</h2>
+                  <h3>人气好物推荐</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <!-- <div class="xp">新<br />品</div> -->
+                  <img src="./assets/upload/rqtj_3.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>场景使用一站买全</h2>
+                  <h3>编辑精心整理推荐</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="images">
+                  <!-- <div class="xp">新<br />品</div> -->
+                  <img src="./assets/upload/rqtj_4.png" alt="" />
+                </div>
+                <div class="text">
+                  <h2>领券中心</h2>
+                  <h3>发现更多超值优惠券</h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 热门品牌 -->
+    <div class="rmpp">
+      <div class="w">
+        <div class="rmpp-title">
+          <h2>热门品牌</h2>
+          <h3>国际经典 品质保证</h3>
+          <div class="jt">
+            <div class="left"><span></span></div>
+            <div class="right"><span></span></div>
+          </div>
+        </div>
+        <div class="rmpp-list">
+          <ul>
+            <li>
+              <a href="#"><img src="./assets/upload/rmpp_1.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/upload/rmpp_2.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/upload/rmpp_3.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/upload/rmpp_4.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/upload/rmpp_5.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 生鲜 -->
+    <!-- 公共部分 -->
+    <div id="sx" class="LIST">
+      <div class="w">
+        <div class="title">
+          <h2>生鲜</h2>
+          <ul>
+            <li><a href="#">水果</a></li>
+            <li><a href="#">蔬菜</a></li>
+            <li><a href="#">肉禽蛋</a></li>
+            <li><a href="#">裤装</a></li>
+            <li><a href="#">衬衫</a></li>
+            <li><a href="#">T恤</a></li>
+            <li><a href="#">内衣</a></li>
+          </ul>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="lists">
+          <div class="im"><img src="./assets/upload/sx_1.png" alt="" /></div>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_2.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_3.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_4.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_5.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_6.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_7.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_8.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/sx_9.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <!-- <li><a href="#">9</a></li> -->
+            <!-- <li><a href="#">10</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 服饰 -->
+    <div id="fs" class="LIST">
+      <div class="w">
+        <div class="title">
+          <h2>服饰</h2>
+          <ul>
+            <li><a href="#">水果</a></li>
+            <li><a href="#">蔬菜</a></li>
+            <li><a href="#">肉禽蛋</a></li>
+            <li><a href="#">裤装</a></li>
+            <li><a href="#">衬衫</a></li>
+            <li><a href="#">T恤</a></li>
+            <li><a href="#">内衣</a></li>
+          </ul>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="lists">
+          <div class="im"><img src="./assets/upload/fs_1.png" alt="" /></div>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_2.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_3.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_4.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_5.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_6.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_7.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_8.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/fs_9.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <!-- <li><a href="#">9</a></li> -->
+            <!-- <li><a href="#">10</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 餐厨 -->
+    <div id="cc" class="LIST">
+      <div class="w">
+        <div class="title">
+          <h2>餐厨</h2>
+          <ul>
+            <li><a href="#">水果</a></li>
+            <li><a href="#">蔬菜</a></li>
+            <li><a href="#">肉禽蛋</a></li>
+            <li><a href="#">裤装</a></li>
+            <li><a href="#">衬衫</a></li>
+            <li><a href="#">T恤</a></li>
+            <li><a href="#">内衣</a></li>
+          </ul>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="lists">
+          <div class="im"><img src="./assets/upload/cc_1.png" alt="" /></div>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_2.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_3.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_4.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_5.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_6.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_7.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_8.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/cc_9.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <!-- <li><a href="#">9</a></li> -->
+            <!-- <li><a href="#">10</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 居家 -->
+    <div id="jj" class="LIST">
+      <div class="w">
+        <div class="title">
+          <h2>居家</h2>
+          <ul>
+            <li><a href="#">水果</a></li>
+            <li><a href="#">蔬菜</a></li>
+            <li><a href="#">肉禽蛋</a></li>
+            <li><a href="#">裤装</a></li>
+            <li><a href="#">衬衫</a></li>
+            <li><a href="#">T恤</a></li>
+            <li><a href="#">内衣</a></li>
+          </ul>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="lists">
+          <div class="im"><img src="./assets/upload/jj_1.png" alt="" /></div>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_2.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_3.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_4.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_5.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_6.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_7.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_8.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="./assets/upload/jj_9.png" alt="" />
+                </div>
+                <div class="txt">
+                  <p>
+                    红功夫 麻辣小龙虾1.5kg <br />
+                    4-6钱/25-32只 <br />
+                    火锅食材 <br />
+                  </p>
+                  <span>￥59</span>
+                </div>
+                <div class="lt">
+                  <span>找相似</span>
+                  <span>发现更多宝贝</span>
+                </div>
+              </a>
+            </li>
+            <!-- <li><a href="#">9</a></li> -->
+            <!-- <li><a href="#">10</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 最新专题 -->
+    <div class="zxzt">
+      <div class="w">
+        <div class="title">
+          <h2>最新专题</h2>
+          <div class="ckqb"><a href="#">查看全部</a><span></span></div>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="im">
+                  <img src="./assets/upload/zxzt_1.png" alt="" />
+                  <div class="jb">
+                    <h2>吃这些美食才不算辜负自己</h2>
+                    <h3>餐厨起居洗护好物</h3>
+                    <button>￥29.9起</button>
+                  </div>
+                </div>
+                <div class="txt">
+                  <p><span></span>&nbsp;1220</p>
+                  <p><span></span>&nbsp;1800</p>
+                  <p><span></span>&nbsp;246</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="im">
+                  <img src="./assets/upload/zxzt_2.png" alt="" />
+                  <div class="jb">
+                    <h2>吃这些美食才不算辜负自己</h2>
+                    <h3>餐厨起居洗护好物</h3>
+                    <button>￥29.9起</button>
+                  </div>
+                </div>
+                <div class="txt">
+                  <p><span></span>&nbsp;1220</p>
+                  <p><span></span>&nbsp;1800</p>
+                  <p><span></span>&nbsp;246</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="im">
+                  <img src="./assets/upload/zxzt_3.png" alt="" />
+                  <div class="jb">
+                    <h2>吃这些美食才不算辜负自己</h2>
+                    <h3>餐厨起居洗护好物</h3>
+                    <button>￥29.9起</button>
+                  </div>
+                </div>
+                <div class="txt">
+                  <p><span></span>&nbsp;1220</p>
+                  <p><span></span>&nbsp;1800</p>
+                  <p><span></span>&nbsp;246</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <div class="foot">
+      <div class="foot-top w">
+        <div class="div1">
+          <h4>客户服务</h4>
+          <div class="div-list">
+            <div class="left">
+              <div class="tp"></div>
+              <p>在线客服</p>
+            </div>
+            <div class="right">
+              <div class="tp"></div>
+              <p>问题反馈</p>
+            </div>
+          </div>
+        </div>
+        <div class="div2">
+          <h4>关注我们</h4>
+          <div class="div-list">
+            <div class="left">
+              <div class="tp"></div>
+              <p>公众号</p>
+            </div>
+            <div class="right">
+              <div class="tp"></div>
+              <p>微博</p>
+            </div>
+          </div>
+        </div>
+        <div class="div3">
+          <h4>下载APP</h4>
+          <div class="div-list">
+            <div class="left"><img src="./assets/images/app.png" alt="" /></div>
+            <div class="right">
+              <h2>扫描二维码</h2>
+              <h3>立马下载APP</h3>
+              <button>下载页面</button>
+            </div>
+          </div>
+          <div class="sss"></div>
+        </div>
+        <div class="div4">
+          <h4>服务热线</h4>
+          <h2>400-0000-000</h2>
+          <h3>周一至周日 8:00-18:00</h3>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div class="foot-bottom1 w">
+          <div>
+            <span></span>
+            <p>价格亲民</p>
+          </div>
+          <div>
+            <span></span>
+            <p>物流快捷</p>
+          </div>
+          <div>
+            <span></span>
+            <p>品质新鲜</p>
+          </div>
+        </div>
+        <div class="foot-bottom2 e">
+          <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">售后服务</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">配送与验收</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">商务合作</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">搜索推荐</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">友情链接</a></li>
+          </ul>
+          <p>CopyRight @ 小兔鲜儿</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>

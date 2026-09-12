@@ -1,0 +1,64 @@
+/* 移动端自定义初始化 */
+*,::before,::after{
+  box-sizing: border-box;
+  /* 清除移动端点击高亮阴影 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* 适配苹果系统默认字体 */
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+  /* 开启苹果字体平滑 */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 禁止移动端长按选中、复制 */
+body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: none;
+  /* vertical-align: bottom; */
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  /* 去除ios默认按钮样式 */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 适配苹果刘海屏安全区域内边距 */
+.app-wrap {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
